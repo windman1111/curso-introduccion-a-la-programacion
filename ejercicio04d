@@ -1,0 +1,13 @@
+estacion = input('Introduzca la estación del año en minúsculas\n')
+ 
+match estacion:
+    case "invierno":
+        print('Abrígate bien al salir de casa.')
+    case "primavera":
+        print('No te olvides el paraguas')
+    case "verano":
+        print('¡A la playa!')
+    case "otoño":
+        print('Vuelta al cole')
+    case _:
+        print('Error al introducir datos')
